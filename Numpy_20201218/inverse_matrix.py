@@ -40,4 +40,4 @@ print(f"행렬식 b = {b}, c = {c}")
 matrix4 = np.linalg.inv(matrix2)
 print(f" 1 = {matrix2} 의 1번 역행렬 = {matrix4}")
 
-# 
+#
