@@ -30,14 +30,18 @@ if __name__ == "__main__":
     from sklearn.ensemble import RandomForestClassifier
     from lightgbm import LGBMClassifier
     from sklearn.model_selection import cross_validate
+    from xgboost import XGBClassifier
+    from sklearn.model_selection import GridSearchCV
+    from sklearn.tree import DecisionTreeClassifier
 
-    model = LGBMClassifier(random_state=42)
+
+    model = RandomForestClassifier(random_state=200, n_jobs=-1)
 
     model.fit(X, Y)
 
-    # scores = cross_validate(model, X, Y, return_train_score=True, n_jobs=-1)
-    #
-    # print(np.mean(scores['train_score']), np.mean(scores['test_score']))
+    scores = cross_validate(model, X, Y, return_train_score=True, n_jobs=-1)
+
+    print(np.mean(scores['train_score']), np.mean(scores['test_score']))
     # print(model.feature_importances_)
 
     # test data
