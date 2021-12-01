@@ -17,10 +17,13 @@
  * [Data Pre-processing]
   + [Missing value, outlier]
  * [Feature modeling]
-  + [Dimensionality Reduction]: Principal Component Analysis, Singular Value Decomposition, Factor Analysis, Independent Component Analysis, Multi-Dimensional Scaling
+  + [Dimensionality Reduction]
+    - Principal Component Analysis, Singular Value Decomposition, Factor Analysis, Independent Component Analysis, Multi-Dimensional Scaling
   + [Derived Variance]
-  + [Variable Transformation]: Binning, Normalization, Standardization
-  + [Imbalance Data processing]: Under-Sampling(Random, ENN, Tomek Link, CNN, OSS), Over-Sampling(Random, SMOTE, Borderline-SMOTE, ADASYN), Thershold-Moving, Ensemble Technique
+  + [Variable Transformation]
+    - Binning, Normalization, Standardization
+  + [Imbalance Data processing]
+    - Under-Sampling(Random, ENN, Tomek Link, CNN, OSS), Over-Sampling(Random, SMOTE, Borderline-SMOTE, ADASYN), Thershold-Moving, Ensemble Technique
  * [Data Analysis Method]
   + [Regression]
   + [Logistic Regression]
@@ -35,7 +38,8 @@
   + [베이지안 기법]
   + [Deep Learning]
   + [비정형 데이터 분석]
-  + [Ensemble Analysis]: Bagging(Random Forest), Boosting
+  + [Ensemble Analysis]
+    - Bagging(Random Forest), Boosting
   + [Nonparametric statistics]
  * [Data Analysis Evaluation]
   + [Train,Test data split]
